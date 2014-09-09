@@ -1,12 +1,14 @@
 Beispiele
 
 Folie 5
+```java
 val charakter = new Character(‘x’)
 val big = new java.math.BigInteger(“12345”)
 
 import java.math._
 import java.math.BigInteger
 import java.math.{BigInteger, BigDezimal=>JBigDezimal}
+```
 ___________________________________________________
 Folie 6
 var name = "hallo Welt"    

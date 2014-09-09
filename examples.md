@@ -97,7 +97,7 @@ val a = for(x <- l) println(x)
 ```
 ____________________________
 ## Folie 27
-++
+### `++`
 ```scala
 val list = List(1,2,3,4,5)
 val array = Array(6,7,8,9)    
@@ -105,27 +105,27 @@ val list2 = list ++ array
 println(list2)    
 ```
 
-```exists```
+### `exists`
 ```scala
 val list1 = List(1,2,4,5,7)
 val myFunction = {(x: Int) => x % 2 == 0}
 list1.exists(myFunction)
 ```
 
-```filter```
+### `filter`
 ```scala
 val list1 = List(1,33,26,146,32,55,26,217,24,326)
 val list2 = list1.filter((x: Int) => x > 50)
 val list4 = list1.filter(_ > 100)
 ```
 
-```foreach```
+### `foreach`
 ```scala
 val myList4 = List(1,6,3,9,4)                     
 myList4.foreach(i => println(i))    
 ```
 
-```map```
+### `map`
 ```scala
 val list12 = List(1,2,3,4)        
 val list13 = list12.map(x => x+1)            
